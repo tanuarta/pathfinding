@@ -1,0 +1,26 @@
+.box {
+    display: flex;
+    width: 10%;
+    height: 50px;
+    padding: 1px 1px 1px 1px;
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.start {
+    background-color: blue;
+}
+
+.end {
+    background-color: green;
+}
+
+.wall {
+    background-color: yellow;
+}
+
+.found {
+    background-color: red;
+}
